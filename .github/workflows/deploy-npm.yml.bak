@@ -10,6 +10,9 @@ jobs:
           persist-credentials: false
 
       - name: Install and Test 🖖
+        with:
+          node-version: '14'
+          cache: 'npm'
         run: |
           npm install --force
           npm run test:unit

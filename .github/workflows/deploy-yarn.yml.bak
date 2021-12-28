@@ -1,7 +1,7 @@
 name: CI with Yarn
 on: [push]
 jobs:
-  build-and-test:
+  build-and-deploy:
     name: Test
     runs-on: ubuntu-latest
     steps:
@@ -9,7 +9,6 @@ jobs:
       - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install # will run `yarn install` command
-          cache: 'yarn'
       - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: test:unit
@@ -21,3 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
+
