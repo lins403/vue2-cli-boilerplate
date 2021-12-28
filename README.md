@@ -1,24 +1,23 @@
-# vue-unit-tests-handbook
+# vue2-cli-boilerplate
 
-## Project setup
-```
+```shell
+git clone https://github.com/lins403/vue2-cli-boilerplate.git myVueProject
+cd myVueProject
+
+# Project setup
 yarn install
-```
 
-### Compiles and hot-reloads for development
-```
+# Compiles and hot-reloads for development
 yarn serve
-```
 
-### Compiles and minifies for production
-```
+# Compiles and minifies for production
 yarn build
-```
 
-### Lints and fixes files
-```
+# Run your unit tests
+yarn test:unit
+
+# Lints and fixes files
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+more details: [🚫💩 | 小眯嘻的文档博客](https://lins403.github.io/vuepress-doc/notes/engineering/specification-config.html)
