@@ -1,0 +1,8 @@
+/dist/*
+/public/*
+public/*
+
+**/*.js
+**/*.jsx
+**/*.tsx
+**/*.ts
