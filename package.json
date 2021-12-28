@@ -2,6 +2,7 @@
   "name": "vue2-cli-boilerplate",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://lins403.github.io/vue2-cli-boilerplate",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
