@@ -7,6 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.config.productionTip = false
 Vue.use(Element)
+console.log(process.env)
 
 new Vue({
   router,

@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.BASE_URL,
+  publicPath: process.env.APP_BASE_URL,
   outputDir: 'dist',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false
