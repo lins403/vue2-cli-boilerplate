@@ -1,7 +1,7 @@
 # vue2-cli-boilerplate
 
 ```shell
-git clone https://github.com/lins403/vue2-cli-boilerplate.git myVueProject
+git clone https://github.com/lins403/vue2-cli-boilerplate.git --branch master myVueProject
 cd myVueProject
 
 # Project setup
