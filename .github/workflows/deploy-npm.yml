@@ -21,12 +21,14 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - name: Install and Test 🖖
+      - name: Install 👀
         with:
           node-version: '14'
-          # cache: 'npm'
-        run: |
+        run:
           npm install --force
+
+      - name: Test 🖖
+        run:
           npm run test:unit
 
       - name: Build 🔧
