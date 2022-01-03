@@ -9,16 +9,28 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Cache node modules 🌝
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
       - name: Install and Test 🖖
         with:
           node-version: '14'
-          cache: 'npm'
-        run: |
+          # cache: 'npm'
+        run:
           npm install --force
           npm run test:unit
 
       - name: Build 🔧
-        run: |
+        run:
           npm run build
 
       - name: Deploy 🚀
