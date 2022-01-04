@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/lins403/vue2-cli-boilerplate/compare/v1.0.0...v1.1.0) (2022-01-10)
+
+
+### Build System
+
+* **.yarnclean:** yarn autoclean --init ([9d256ba](https://github.com/lins403/vue2-cli-boilerplate/commit/9d256ba4b84890438228a7b2d5898eabaf86dda8))
+
+
+### Miscellaneous Chores
+
+* **.eslintrc.js:** fix eslint-jest rules ([8cac4b7](https://github.com/lins403/vue2-cli-boilerplate/commit/8cac4b7784f38abe6dae7d3f98d0f9c97824a10a))
+* **stylelint:** fix styelint resolving error by installing postcss@8 manually ([fdaee2b](https://github.com/lins403/vue2-cli-boilerplate/commit/fdaee2bdfbedf2c57951090afaf0bd262fc2c7ed))
+
 ## 1.0.0 (2021-12-29)
 
 
