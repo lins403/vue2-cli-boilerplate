@@ -8,8 +8,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true,
-    jest: true
+    es6: true
   },
   extends: ['eslint:recommended', 'plugin:vue/recommended', 'plugin:prettier/recommended'],
   rules: {
@@ -29,5 +28,13 @@ module.exports = {
         math: 'always'
       }
     ]
-  }
+  },
+  overrides: [
+    {
+      files: ['**/__tests__/*.{j,t}s?(x)', '**/tests/unit/**/*.(spec|test).{j,t}s?(x)'],
+      env: {
+        jest: true
+      }
+    }
+  ]
 }
