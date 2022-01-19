@@ -1,0 +1,19 @@
+/* stylelint-disable */
+/*icon字体路径变量*/
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+/* 覆盖主题颜色 */
+/* 主题配置 https://element.eleme.cn/#/zh-CN/theme/preview */
+$--color-primary: #004393;
+
+/* 引入全部默认样式 会引入没用到的组件样式 */
+@import '~element-ui/packages/theme-chalk/src/index';
+
+/*按需引入用到的组件的scss文件和基础scss文件*/
+// @import '~element-ui/packages/theme-chalk/src/base.scss';
+// @import '~element-ui/packages/theme-chalk/src/button.scss';
+
+/* https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass */
+:export {
+  theme: $--color-primary;
+}
