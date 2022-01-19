@@ -8,7 +8,7 @@ module.exports = {
         'selector-pseudo-class-no-unknown': [
           true,
           {
-            ignorePseudoClasses: ['deep', 'global']
+            ignorePseudoClasses: ['deep', 'global', 'export']
           }
         ],
         'selector-pseudo-element-no-unknown': [

@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/lins403/vue2-cli-boilerplate/compare/v1.0.0...v1.2.0) (2022-01-19)
+
+
+### Miscellaneous Chores
+
+* **release:** 1.1.0 ([e78b3f0](https://github.com/lins403/vue2-cli-boilerplate/commit/e78b3f057c653a7dae4973ab472456d62ccf02fd))
+* **vue.config.js:** silence sass Deprecation Warning ([147d5f5](https://github.com/lins403/vue2-cli-boilerplate/commit/147d5f57d5be0dd0ad25cd9d7d3241fc663ef32d))
+
+
+### Build System
+
+* support importing element-ui on demand ([6d39a7d](https://github.com/lins403/vue2-cli-boilerplate/commit/6d39a7d1908f6eac120a65e2646eed72cc565874))
+
 ## [1.1.0](https://github.com/lins403/vue2-cli-boilerplate/compare/v1.0.0...v1.1.0) (2022-01-10)
 
 
